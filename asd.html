@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-               .minha_engrenage
+        .minha_engrenage
         {    
-            position: absolute;
             top: 0px;
             left: 500px;
             animation: engrena 3s infinite linear alternate-reverse;
@@ -18,13 +17,24 @@
 
             top: 0px;
             left: 0px;
-            animation: engrena 3s infinite linear alternate-reverse;
+            animation: engrena2 3s infinite linear alternate-reverse;
         }
         @keyframes engrena
         {
-            0%  { rotate: 0deg; }
+            
+           
+            0%  { rotate: 360deg; }
 
+            100% { rotate: 0deg; }
+
+        }
+
+        @keyframes engrena2
+        {
+            0%  { rotate: 0deg; }
+            
             100% { rotate: 360deg; }
+
         }
     </style>
 </head>
